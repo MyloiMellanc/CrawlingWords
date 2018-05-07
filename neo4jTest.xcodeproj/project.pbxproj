@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF037E7C2074A30600CABB8F /* libneo4j-client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF037E7B2074A30600CABB8F /* libneo4j-client.a */; };
+		BFBF6B1C20471BDF006AE060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBF6B1B20471BDF006AE060 /* AppDelegate.swift */; };
+		BFBF6B1E20471BDF006AE060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBF6B1D20471BDF006AE060 /* ViewController.swift */; };
+		BFBF6B2020471BDF006AE060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBF6B1F20471BDF006AE060 /* Assets.xcassets */; };
+		BFBF6B2320471BDF006AE060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBF6B2120471BDF006AE060 /* Main.storyboard */; };
+		C0F38B77B88C074C23E59CB8 /* Pods_neo4jTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D166F669D220698C740447CB /* Pods_neo4jTest.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6FB9B87208289D67774FCE49 /* Pods-neo4jTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neo4jTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neo4jTest/Pods-neo4jTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B79C6A1B147B6381EAA46C33 /* Pods-neo4jTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neo4jTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-neo4jTest/Pods-neo4jTest.release.xcconfig"; sourceTree = "<group>"; };
+		BF037E7B2074A30600CABB8F /* libneo4j-client.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libneo4j-client.a"; path = "../../../../usr/local/Cellar/libneo4j-client/2.2.0/lib/libneo4j-client.a"; sourceTree = "<group>"; };
+		BF15772820A0BFFE00DFA530 /* neo4jTest-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "neo4jTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFBF6B1820471BDF006AE060 /* neo4jTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neo4jTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBF6B1B20471BDF006AE060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFBF6B1D20471BDF006AE060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFBF6B1F20471BDF006AE060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFBF6B2220471BDF006AE060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFBF6B2420471BDF006AE060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBF6B2520471BDF006AE060 /* neo4jTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = neo4jTest.entitlements; sourceTree = "<group>"; };
+		D166F669D220698C740447CB /* Pods_neo4jTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neo4jTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFBF6B1520471BDF006AE060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF037E7C2074A30600CABB8F /* libneo4j-client.a in Frameworks */,
+				C0F38B77B88C074C23E59CB8 /* Pods_neo4jTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3010E925EC4D25CF544F3884 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB9B87208289D67774FCE49 /* Pods-neo4jTest.debug.xcconfig */,
+				B79C6A1B147B6381EAA46C33 /* Pods-neo4jTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFBF6B0F20471BDF006AE060 = {
+			isa = PBXGroup;
+			children = (
+				BFBF6B1A20471BDF006AE060 /* neo4jTest */,
+				BFBF6B1920471BDF006AE060 /* Products */,
+				3010E925EC4D25CF544F3884 /* Pods */,
+				CFD160D7F3C155C9BF565FBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFBF6B1920471BDF006AE060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF6B1820471BDF006AE060 /* neo4jTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFBF6B1A20471BDF006AE060 /* neo4jTest */ = {
+			isa = PBXGroup;
+			children = (
+				BF15772820A0BFFE00DFA530 /* neo4jTest-Bridging-Header.h */,
+				BFBF6B1B20471BDF006AE060 /* AppDelegate.swift */,
+				BFBF6B1D20471BDF006AE060 /* ViewController.swift */,
+				BFBF6B1F20471BDF006AE060 /* Assets.xcassets */,
+				BFBF6B2120471BDF006AE060 /* Main.storyboard */,
+				BFBF6B2420471BDF006AE060 /* Info.plist */,
+				BFBF6B2520471BDF006AE060 /* neo4jTest.entitlements */,
+			);
+			path = neo4jTest;
+			sourceTree = "<group>";
+		};
+		CFD160D7F3C155C9BF565FBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF037E7B2074A30600CABB8F /* libneo4j-client.a */,
+				D166F669D220698C740447CB /* Pods_neo4jTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFBF6B1720471BDF006AE060 /* neo4jTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFBF6B2820471BDF006AE060 /* Build configuration list for PBXNativeTarget "neo4jTest" */;
+			buildPhases = (
+				D703C6C4ADFAE23D04A187F1 /* [CP] Check Pods Manifest.lock */,
+				BFBF6B1420471BDF006AE060 /* Sources */,
+				BFBF6B1520471BDF006AE060 /* Frameworks */,
+				BFBF6B1620471BDF006AE060 /* Resources */,
+				AC522D761F14CDB244ED3369 /* [CP] Embed Pods Frameworks */,
+				2D4F5D8D81E990375783136F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = neo4jTest;
+			productName = neo4jTest;
+			productReference = BFBF6B1820471BDF006AE060 /* neo4jTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFBF6B1020471BDF006AE060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MyloiMellanc;
+				TargetAttributes = {
+					BFBF6B1720471BDF006AE060 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BFBF6B1320471BDF006AE060 /* Build configuration list for PBXProject "neo4jTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFBF6B0F20471BDF006AE060;
+			productRefGroup = BFBF6B1920471BDF006AE060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFBF6B1720471BDF006AE060 /* neo4jTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFBF6B1620471BDF006AE060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBF6B2020471BDF006AE060 /* Assets.xcassets in Resources */,
+				BFBF6B2320471BDF006AE060 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D4F5D8D81E990375783136F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neo4jTest/Pods-neo4jTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC522D761F14CDB244ED3369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-neo4jTest/Pods-neo4jTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BlueSSLService/SSLService.framework",
+				"${BUILT_PRODUCTS_DIR}/BlueSocket/Socket.framework",
+				"${BUILT_PRODUCTS_DIR}/BoltProtocol/Bolt.framework",
+				"${BUILT_PRODUCTS_DIR}/CSV.swift/CSV.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/PackStream/PackStream.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Theo/Theo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSLService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Socket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSV.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PackStream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Theo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neo4jTest/Pods-neo4jTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D703C6C4ADFAE23D04A187F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neo4jTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFBF6B1420471BDF006AE060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBF6B1E20471BDF006AE060 /* ViewController.swift in Sources */,
+				BFBF6B1C20471BDF006AE060 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFBF6B2120471BDF006AE060 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFBF6B2220471BDF006AE060 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFBF6B2620471BDF006AE060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFBF6B2720471BDF006AE060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BFBF6B2920471BDF006AE060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB9B87208289D67774FCE49 /* Pods-neo4jTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = neo4jTest/neo4jTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"/usr/local/Cellar/libneo4j-client/2.2.0/include",
+				);
+				INFOPLIST_FILE = neo4jTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/libneo4j-client/2.2.0/lib";
+				PRODUCT_BUNDLE_IDENTIFIER = prototype.neo4jTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "neo4jTest/neo4jTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		BFBF6B2A20471BDF006AE060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79C6A1B147B6381EAA46C33 /* Pods-neo4jTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = neo4jTest/neo4jTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"/usr/local/Cellar/libneo4j-client/2.2.0/include",
+				);
+				INFOPLIST_FILE = neo4jTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/libneo4j-client/2.2.0/lib";
+				PRODUCT_BUNDLE_IDENTIFIER = prototype.neo4jTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "neo4jTest/neo4jTest-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFBF6B1320471BDF006AE060 /* Build configuration list for PBXProject "neo4jTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBF6B2620471BDF006AE060 /* Debug */,
+				BFBF6B2720471BDF006AE060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFBF6B2820471BDF006AE060 /* Build configuration list for PBXNativeTarget "neo4jTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBF6B2920471BDF006AE060 /* Debug */,
+				BFBF6B2A20471BDF006AE060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFBF6B1020471BDF006AE060 /* Project object */;
+}

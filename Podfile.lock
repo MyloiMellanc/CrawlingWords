@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.7.0)
+  - BlueSocket (0.12.94)
+  - BlueSSLService (0.12.84):
+    - BlueSocket (~> 0.12.94)
+  - BoltProtocol (1.0.1):
+    - BlueSocket (~> 0.12.94)
+    - BlueSSLService (~> 0.12.84)
+    - PackStream (~> 1.0.1)
+  - CSV.swift (2.1.0)
+  - Kanna (4.0.0)
+  - PackStream (1.0.1)
+  - Result (3.2.4)
+  - Theo (4.0.1):
+    - BoltProtocol (~> 1.0.1)
+    - Result (~> 3.2.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CSV.swift (~> 2.1.0)
+  - Kanna (from `https://github.com/tid-kijyun/Kanna.git`, branch `feature/v4.0.0`)
+  - Theo
+
+EXTERNAL SOURCES:
+  Kanna:
+    :branch: feature/v4.0.0
+    :git: https://github.com/tid-kijyun/Kanna.git
+
+CHECKOUT OPTIONS:
+  Kanna:
+    :commit: 81ce91fd485b637517c340c73590a9b59ac9f7d5
+    :git: https://github.com/tid-kijyun/Kanna.git
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  BlueSocket: 184ff448002475bfb5d676286c2458da5d971f47
+  BlueSSLService: 27ddc87221e714aa0cc0f4f18a703b2570a62827
+  BoltProtocol: c008cb1aeaacabf2e5a8d8aadd5949b3490b554c
+  CSV.swift: a24fb11c17875523783fe963592762ff163ef8ea
+  Kanna: d5ae2a26472f7e7a474e7f36a9cd8aa2c8c63ad3
+  PackStream: 1164d6334f8943becedf3a989dbf9900d6e0672c
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  Theo: 7d999d812a1f78c78247b541e30a2c3209d3600a
+
+PODFILE CHECKSUM: 7acd03b2524d0064e44b20888822262e69667dcb
+
+COCOAPODS: 1.4.0
