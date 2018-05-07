@@ -6,3 +6,10 @@ Multiple_Mindmap 프로젝트를 위한 크롤링 어플리케이션입니다.
 
 pod init
 pos install
+
+
+
+
+
+
+crawl.py 소스파일은 위키피디아 크롤링을 위해 작성된 추가적인 소스코드입니다.
